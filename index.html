@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Website</title>
+</head>
+<body>
+    <!-- Adding the jumbotron -->
+    <div class="jumbotron text-center">
+        <h1>Shitty Company</h1>
+        <p>We specialize in breaking everything</p>
+        <form class="form-inline">
+            <div class="input-group">
+                <input type="email" class="form-control" size="50" placeholder="Email Address" required>
+                <div class="input-group-btn">
+                    <button type="button" class="btn btn-danger">Subscribe</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    
+    <!-- Adding two containers -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-8">
+                <h2>About Company</h2>
+            <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo expedita quis non omnis a ut magnam animi, placeat ipsum unde ducimus repellat pariatur possimus iste consequatur mollitia quam nihil reprehenderit.</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores minima numquam, officia magnam quisquam quibusdam odio, fuga harum, non inventore assumenda. Libero neque fuga necessitatibus perferendis animi quisquam sit voluptatibus.</p>
+            <button class="btn btn-default btn-lg">Get in Touch</button>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-camera logo"></span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid bg-grey">
+        <div class="row">
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-globe logo"></span>
+            </div>
+            <div class="col-sm-8">
+                <h2>Our Values</h2>
+                <h4><strong>MISSION:</strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi repudiandae, ullam in placeat numquam odit, nam similique, natus beatae quaerat facilis rem atque ab neque repellendus laudantium adipisci saepe hic.</h4>
+                <p><strong>VISION:</strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis suscipit laboriosam, quos vero inventore nesciunt! Harum quis minima, officiis vel excepturi, enim aliquam autem, incidunt eum odio quidem eligendi laboriosam.</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Making an about us section -->
+    <div class="container-fluid text-center">
+        <h2>SERVICES</h2>
+        <h4>What we offer</h4>
+        <br>
+        <div class="row">
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-off logo-small"></span>
+                <h4>POWER</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum aliquid, debitis sint nemo quia reprehenderit beatae consequatur. Corporis soluta, aspernatur sint voluptate nobis, totam tenetur eaque deserunt commodi rerum eius?</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-heart logo-small"></span>
+                <h4>LOVE</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est dolorem modi distinctio adipisci commodi sequi iste, sit quam nisi vero, nesciunt veniam omnis quae doloremque quo consequuntur impedit assumenda cum!</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-lock logo-small"></span>
+                <h4>JOB DONE</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, officiis, necessitatibus non sapiente aliquam totam eius. Fugit quis eligendi consequuntur, voluptatem odio optio nam aliquid voluptatum cupiditate vitae doloribus, nulla.</p>
+            </div>
+        </div><br><br>
+        <div class="row">
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-leaf logo-small"></span>
+                <h4>GREEN</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto perferendis dolorum aperiam aut, laudantium sed sapiente ipsum, quibusdam est, deserunt sunt placeat hic amet! Fuga perspiciatis distinctio unde expedita itaque?</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-certificate logo-small"></span>
+                <h4>CERTIFIED</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit earum tenetur laudantium, quo voluptas dolor ab, cupiditate fugit totam placeat excepturi voluptatibus aperiam similique accusantium soluta optio eaque odio! Debitis?</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-wrench logo-small"></span>
+                <h4>HARD WORK</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque voluptatum libero qui, alias cupiditate iure similique nesciunt blanditiis ullam natus magni eligendi recusandae nihil perspiciatis eos nulla consequuntur temporibus! Veritatis?</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid text-center">
+            
+    <!-- Making a carousel -->
+    <h2>What our customers say</h2>
+    <div id="carousel-main" class="carousel slide text-center" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="carousel-main" data-slide-to="0" class="active"></li>
+            <li data-target="carousel-main" data-slide-to="1"></li>
+            <li data-target="carousel-main" data-slide-to="2"></li>
+        </ol>
+        
+        <!-- Wrapper for the slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <h4>"This company is the best. I am so happy with the result!"<br><span style="font-style: normal">Michael Roe, Vice President, Comment Box</span></h4>
+            </div>
+            <div class="item">
+                <h4>"Amazing!"<br><span style="font-style: normal">John Doe, Salesman, Rep Inc</span></h4>
+            </div>
+            <div class="item">
+                <h4>"I can't be more happy!"<br><span style="font-style: normal">Chandler Bing, Actor, FriendsAlot</span></h4>
+            </div>
+        </div>
+        
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-main" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-main" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        </div>
+    </div>
+</body>
+</html>
